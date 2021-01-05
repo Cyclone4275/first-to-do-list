@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Passion+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 
 @keyframes fadeIn {
   from {
@@ -27,16 +29,109 @@ body {
   cursor: pointer;
 }
 
+.js-clock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.js-title {
+  margin-bottom: 5px;
+}
+
+.js-weather {
+  font-family: "Passion One", cursive;
+  color: white;
+  margin-top: 0px;
+}
+
+.js-greetings__container {
+  display: flex;
+  justify-content: center;
+}
+
 h1 {
   font-family: "Passion One", cursive;
-  color: black;
+  color: white;
 }
 
 .form,
 .greetings {
   display: none;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 30px;
 }
 
 .showing {
   display: block;
+  margin-bottom: 10px;
+}
+
+.todo__container {
+  display: flex;
+  justify-content: center;
+  font-family: 'Monoton', cursive;
+}
+
+.todo__title {
+  color: white;
+  font-size: 25px;
+}
+
+.js-toDoForm {
+  display: flex;
+  justify-content: center;
+}
+
+.js-toDoForm__input {
+  margin-right: 5px;
+  width: 200px;
+}
+
+.js-toDoForm__duedate {
+  margin-right: 5px;
+  width: 200px;
+}
+
+.js-toDoForm__importance {
+  margin-right: 5px;
+  width: 200px;
+}
+
+.js-toDoForm__submit {
+  color: white;
+  background-color: black;
+  outline: none;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.js-toDoForm__sort{
+  color: black;
+  background-color: white;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.js-toDoList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  color: white;
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 20px;
+}
+
+span {
+  margin-right: 20px;
+}
+
+button {
+  margin-right: 5px;
+  align-items: center;
+  justify-content: center;
 }
