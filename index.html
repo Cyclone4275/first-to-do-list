@@ -12,7 +12,11 @@
       <span class="js-weather"></span>
     </div>
     <form class="js-form form">
-      <input class="js-form__input" type="text" placeholder="What is your name?">
+      <input
+        class="js-form__input"
+        type="text"
+        placeholder="What is your name?"
+      />
     </form>
     <div class="js-greetings__container">
       <h4 class="js-greetings greetings"></h4>
@@ -21,22 +25,48 @@
       <span class="todo__title">To-Do List</span>
     </div>
     <form class="js-toDoForm">
-      <input class="js-toDoForm__input" type="text" name="" id="" placeholder="Write a to do">
-      <input class="js-toDoForm__duedate" type="date" name="" id="" placeholder="Write a due date">
-      <input class="js-toDoForm__importance" type="text" name="" id="" placeholder="Write a importance">
+      <input
+        class="js-toDoForm__input"
+        type="text"
+        name=""
+        id=""
+        placeholder="Write a to do"
+      />
+      <input
+        class="js-toDoForm__duedate"
+        type="date"
+        name=""
+        id=""
+        placeholder="Write a due date"
+      />
+      <input
+        class="js-toDoForm__importance"
+        type="text"
+        name=""
+        id=""
+        placeholder="Write a importance"
+      />
       <button class="js-toDoForm__submit" type="submit">Add To-Do</button>
-      <button class="js-toDoForm__sort">Sort To-Do</button>
     </form>
-    <ul class = "js-toDoList">
-    </ul>
-    
+    <div class="button__container">
+      <button id="js-toDoForm__sortbydue" class="js-toDoForm__sort">
+        Sort To-Do (by Due date)
+      </button>
+      <button id="js-toDoForm__sortbyimp" class="js-toDoForm__sort">
+        Sort To-Do (by Importance)
+      </button>
+    </div>
+    <ul class="js-toDoList"></ul>
+
     <script src="clock.js"></script>
     <script src="greeting.js"></script>
     <script src="todo.js"></script>
     <script src="bg.js"></script>
     <script src="weather.js"></script>
-    <script src="https://kit.fontawesome.com/29ffa9dc11.js" crossorigin="anonymous"></script>
-
-
+    <script src="sort.js"></script>
+    <script
+      src="https://kit.fontawesome.com/29ffa9dc11.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
