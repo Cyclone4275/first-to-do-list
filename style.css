@@ -37,12 +37,14 @@ body {
 
 .js-title {
   margin-bottom: 5px;
+  font-size: 40px;
 }
 
 .js-weather {
   font-family: "Passion One", cursive;
   color: white;
   margin-top: 0px;
+  font-size: 30px;
 }
 
 .js-greetings__container {
@@ -62,11 +64,13 @@ h1 {
   justify-content: center;
   color: white;
   font-family: "Do Hyeon", sans-serif;
-  font-size: 30px;
+  font-size: 60px;
 }
 
 .showing {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 10px;
 }
 
@@ -78,7 +82,7 @@ h1 {
 
 .todo__title {
   color: white;
-  font-size: 25px;
+  font-size: 40px;
 }
 
 .js-toDoForm {
@@ -141,4 +145,3 @@ button {
   justify-content: center;
   margin-top: 10px;
 }
-
